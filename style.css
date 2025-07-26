@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.c1, .c2, .c3, .c4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;   
+}
+
+.c1{
+    background-color: aqua;
+}
+
+.c2{
+    background-color: blueviolet;
+}
+
+.c3{
+    background-color: chocolate;
+}
+
+.c4{
+    background-color:pink;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
