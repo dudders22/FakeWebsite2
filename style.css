@@ -14,22 +14,27 @@ body{
 
 .contentbox{
     display: flex;
-    margin: 20px 40px;
-    flex-basis: 800px;
-    & .c1{
-        justify-content: space-between;
-    }
+    flex: 1;
+    padding: 0 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 .c1, .c2, .c3, .c4{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;   
+    flex-grow: 1;
 }
 
 .c1{
     background-color: #606c38;
+    & .contentbox{
+        justify-content: space-between;
+    }
+    & button{
+        margin-top: auto;
+    }
 }
 
 .c2{
@@ -49,4 +54,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #7f4f24
+}
+
+.header{
+    font-style: italic;
+    font-size: smaller;
 }
